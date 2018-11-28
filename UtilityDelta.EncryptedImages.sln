@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityDelta.EncryptedImages.Test", "UtilityDelta.EncryptedImages.Test\UtilityDelta.EncryptedImages.Test.csproj", "{531947A5-1627-4B6B-96FE-5AC0807ADE96}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UtilityDelta.EncryptedImages", "UtilityDelta.EncryptedImages\UtilityDelta.EncryptedImages.csproj", "{247D34EE-BFAC-476D-A4D8-FF09E8BBBFD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{531947A5-1627-4B6B-96FE-5AC0807ADE96}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531947A5-1627-4B6B-96FE-5AC0807ADE96}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531947A5-1627-4B6B-96FE-5AC0807ADE96}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531947A5-1627-4B6B-96FE-5AC0807ADE96}.Release|Any CPU.Build.0 = Release|Any CPU
+		{247D34EE-BFAC-476D-A4D8-FF09E8BBBFD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{247D34EE-BFAC-476D-A4D8-FF09E8BBBFD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{247D34EE-BFAC-476D-A4D8-FF09E8BBBFD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{247D34EE-BFAC-476D-A4D8-FF09E8BBBFD4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C09612E0-2508-4966-81AE-6AEF0D02A83C}
+	EndGlobalSection
+EndGlobal

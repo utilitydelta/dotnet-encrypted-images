@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Tyson Brown</Authors>
+    <Company>UtilityDelta</Company>
+    <PackageLicenseUrl>https://github.com/utilitydelta-io/dotnet-encrypted-images/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/utilitydelta-io/dotnet-encrypted-images</PackageProjectUrl>
+    <Copyright>UtilityDelta</Copyright>
+    <Description>Take an image stream, save thumbnail, medium and original sizes on the file system, all encrypted with a secret password.</Description>
+    <RepositoryUrl>https://github.com/utilitydelta-io/dotnet-encrypted-images</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0005" />
+    <PackageReference Include="UtilityDelta.Encryption" Version="1.1.0" />
+  </ItemGroup>
+
+</Project>
