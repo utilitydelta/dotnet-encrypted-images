@@ -17,7 +17,7 @@ namespace ConsoleApp1
         {
             var service = new SaveImages();
             var imageGuid = Guid.NewGuid(); //Unique key from your database
-            service.FromStream("image.jpg", "test-key", "subfolder", imageGuid, new List<Size>
+            service.FromPath("image.jpg", "test-key", "subfolder", imageGuid, new List<Size>
             {
                 new Size("original", null, null),
                 new Size("medium", 1000, 500),
