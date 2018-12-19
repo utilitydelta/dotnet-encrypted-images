@@ -11,6 +11,7 @@
     <Copyright>UtilityDelta</Copyright>
     <Description>Take an image stream, save thumbnail, medium and original sizes on the file system, all encrypted with a secret password.</Description>
     <RepositoryUrl>https://github.com/utilitydelta-io/dotnet-encrypted-images</RepositoryUrl>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup>

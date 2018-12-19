@@ -31,6 +31,7 @@ namespace UtilityDelta.EncryptedImages
 
             foreach (var size in sizes)
             {
+                source.Position = 0;
                 var path = destinationPath + "\\" + size.ImageSizePrefix + "-" + imageId;
 
                 if (size.MaxWidth == null && size.MaxHeight == null)
@@ -39,7 +40,6 @@ namespace UtilityDelta.EncryptedImages
                     using (var cryptStream = symmetricEncryption.GetEncryptStream(fileStream))
                     {
                         source.CopyTo(cryptStream);
-                        source.Position = 0;
                     }
 
                     continue;

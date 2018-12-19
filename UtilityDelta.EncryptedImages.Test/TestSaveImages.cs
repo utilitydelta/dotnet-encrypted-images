@@ -49,9 +49,9 @@ namespace UtilityDelta.EncryptedImages.Test
             var origStream = ExtractResource("UtilityDelta.EncryptedImages.Test.image.jpg");
             service.FromStream(origStream, "test-key", "subfolder", imageGuid, new List<Size>
             {
-                new Size("original", null, null),
                 new Size("medium", 1000, 500),
-                new Size("thumb", 200, 200)
+                new Size("thumb", 200, 200),
+                new Size("original", null, null)
             });
 
             var decryptor = new SymmetricEncryptionWithKnownKey("test-key");
