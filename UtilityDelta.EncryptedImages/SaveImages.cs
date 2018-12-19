@@ -23,6 +23,10 @@ namespace UtilityDelta.EncryptedImages
         {
             var result = new List<ImageSaveResult>();
             if (sizes == null) return result;
+            if (destinationPath == null)
+            {
+                destinationPath = string.Empty;
+            }
 
             if (!string.IsNullOrEmpty(destinationPath) && !Directory.Exists(destinationPath))
                 Directory.CreateDirectory(destinationPath);
@@ -32,7 +36,7 @@ namespace UtilityDelta.EncryptedImages
             foreach (var size in sizes)
             {
                 source.Position = 0;
-                var path = destinationPath + "\\" + size.ImageSizePrefix + "-" + imageId;
+                var path = Path.Combine(destinationPath, size.ImageSizePrefix + "-" + imageId);
 
                 if (size.MaxWidth == null && size.MaxHeight == null)
                 {
